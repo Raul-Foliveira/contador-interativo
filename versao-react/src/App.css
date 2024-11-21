@@ -38,7 +38,7 @@ p {
   display: flex;
   justify-content: space-between; /* Garantir que os botões de cada lado fiquem nas extremidades */
   width: 100%; /* Garantir que o espaço total seja usado */
-  margin-top: 20px; /* Ajustar a margem entre o contador e os botões */
+  margin-top: 20px; 
 }
 
 /* Estilos individuais dos botões */

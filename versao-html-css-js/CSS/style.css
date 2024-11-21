@@ -43,20 +43,28 @@ body {
     border-radius: 8px;
     padding: 20px;
     margin: 20px auto;
-    width: 120px;
+    width: 80px;
   }
   
   /* Botões */
+  .buttons {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%; 
+    margin-top: 20px; 
+  }
+  
+  /* Estilos individuais dos botões */
   .buttons button {
     background-color: #007bff;
     color: #ffffff;
     border: none;
     border-radius: 5px;
-    padding: 10px 20px;
-    margin: 5px;
+    padding: 10px 0px;
     font-size: 1rem;
     cursor: pointer;
     transition: all 0.3s ease;
+    width: 30%; 
   }
   
   .buttons button:hover {
@@ -117,7 +125,7 @@ body {
     }
   
     .buttons button {
-      padding: 8px 16px;
+      padding: 8px 0px;
       font-size: 0.9rem;
     }
   
