@@ -1,0 +1,125 @@
+.container {
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 480px;
+}
+
+
+h1 {
+  font-size: 2rem;
+  color: #e7b202;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1rem;
+  color: #666;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+.counter {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+  background-color: #f9fafb;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 120px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between; /* Garantir que os botões de cada lado fiquem nas extremidades */
+  width: 100%; /* Garantir que o espaço total seja usado */
+  margin-top: 20px; /* Ajustar a margem entre o contador e os botões */
+}
+
+/* Estilos individuais dos botões */
+.buttons button {
+  background-color: #e4af03;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 0px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 30%; /* Dar um tamanho igual para cada botão */
+}
+
+
+.buttons button:hover {
+  background-color: #8a7102;
+}
+
+.buttons button:active {
+  transform: scale(0.95);
+}
+
+
+
+/* Sugestões */
+.suggestion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  text-align: left;
+  background: #f1f5f9;
+  padding: 15px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.suggestion-text {
+  flex: 1;
+}
+
+.suggestion h2 {
+  font-size: 1.5rem;
+  color: #e7b202;  
+}
+
+.suggestion p {
+  font-size: 1rem;
+  color: #7f8c8d;
+}
+
+/* Botões - setas */
+.arrow {
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #e4af03;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: all 0.3s ease;
+}
+
+.arrow:hover {
+  color: #0056b3;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .counter {
+    font-size: 2.5rem;
+  }
+
+  .buttons button {
+    padding: 8px 0px;
+    font-size: 0.9rem;
+  }
+
+  .suggestion h2 {
+    font-size: 1.3rem;
+  }
+}
